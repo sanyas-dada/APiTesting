@@ -1,5 +1,7 @@
 package com.sanyasdada.apitesting.api;
 
+import static java.sql.DriverManager.println;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -16,7 +18,10 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.relative_layout_practise);
+
+        println("i am going to make an simple application using android studio");
     }
+
 
 
 
